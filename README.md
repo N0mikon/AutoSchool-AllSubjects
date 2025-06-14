@@ -16,13 +16,13 @@ This fork of the original [AutoSchool](https://openuserjs.org/scripts/lucidobser
 
 Install directly via Tampermonkey:
 
-[**Install Script**](https://raw.githubusercontent.com/N0mikon/AutoSchool-AllSubjects/main/autoschool.user.js)
+[**Install Script**](https://github.com/N0mikon/AutoSchool-AllSubjects/raw/refs/heads/main/AutoSchool%20(All%20Subjects%20Fork)-2.0.user.js)
 
 Or paste the raw script manually from [`autoschool.user.js`](autoschool.user.js)
 
 ## 📜 License
 
-MIT License. Original script by [lucidobservor](https://openuserjs.org/scripts/lucidobservor/AutoSchool), modified and maintained by [Nomikon](https://github.com/N0mikon).
+MIT License. Original script by [lucidobservor](https://openuserjs.org/scripts/lucidobservor/AutoSchool), modified by [Nomikon](https://github.com/N0mikon).
 
 ## 🧠 Credits
 
