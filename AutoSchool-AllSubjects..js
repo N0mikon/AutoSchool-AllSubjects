@@ -9,6 +9,8 @@
 // @match        https://tendsty.github.io/gooboo/
 // @match        https://tendsty.itch.io/gooboo
 // @icon         https://tendsty.github.io/gooboo/favicon-32x32.png
+// @downloadURL  https://github.com/N0mikon/AutoSchool-AllSubjects/raw/main/AutoSchool-AllSubjects.user.js
+// @updateURL    https://github.com/N0mikon/AutoSchool-AllSubjects/raw/main/AutoSchool-AllSubjects.user.js
 // @homepage     https://github.com/N0mikon/AutoSchool-AllSubjects
 // @supportURL   https://github.com/N0mikon/AutoSchool-AllSubjects/issues
 // @grant        none
