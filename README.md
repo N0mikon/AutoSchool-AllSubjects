@@ -18,8 +18,6 @@ Install directly via Tampermonkey:
 
 [**Install Script**](https://github.com/N0mikon/AutoSchool-AllSubjects/raw/main/AutoSchool-AllSubjects.user.js)
 
-Or paste the raw script manually from [`autoschool.user.js`](autoschool.user.js)
-
 ## 📜 License
 
 MIT License. Original script by [lucidobservor](https://openuserjs.org/scripts/lucidobservor/AutoSchool), modified by [Nomikon](https://github.com/N0mikon).
