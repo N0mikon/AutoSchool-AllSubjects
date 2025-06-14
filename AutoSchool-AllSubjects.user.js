@@ -149,10 +149,20 @@
     }
   }
 
-  // === TOGGLE BUTTON + LOADING TIME FIX ===
+  // === LOAD TOGGLE BUTTON + REGISTER AS CHEAT ===
   const observer = new MutationObserver(() => {
     const toolbar = document.querySelector('.v-toolbar__content .spacer');
     if (toolbar && !document.getElementById(schoolButtonName)) {
+      const vueEl = document.getElementById('app');
+        if (vueEl && vueEl.__vue__ && vueEl.__vue__.$store) {
+            const vuex = vueEl.__vue__.$store;
+            vuex.commit('system/registerCheat', {
+                modid: 'autoschool',
+                feature: 'school',
+                name: 'autoclick:autoschool',
+                severity: 100
+            });
+        }
       const schoolActionDiv = document.createElement('div');
       schoolActionDiv.id = 'schoolActionDiv';
       schoolActionDiv.innerHTML = `&nbsp;&nbsp;<button data-autoaction id="${schoolButtonName}" type="button" class="v-chip theme--dark v-size--small">AutoSchool OFF</button>`;
